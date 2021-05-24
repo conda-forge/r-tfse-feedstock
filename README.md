@@ -5,11 +5,9 @@ Home: https://tfse.mikewk.com
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfse-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection of useful tools for programming and writing-scripts.  Several functions are simple wrappers around base R functions that extend  their functionality while also providing some convenient propertiesâ€“regular expression functions that automatically detect look-ahead and look-behind  statements, a read-line function that suppresses incomplete-final-line  warnings and automatically opens and closes connections, a version of  substrings that starts from the end of strings, etc. Other functions are  useful for checking whether packages are installed, omitting  missing data, and showing in-use connections.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-tfse` from the `conda-forge` channel can be achieved by adding `co
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-tfse` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
