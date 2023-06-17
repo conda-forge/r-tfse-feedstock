@@ -1,11 +1,11 @@
-About r-tfse
-============
+About r-tfse-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfse-feedstock/blob/main/LICENSE.txt)
 
 Home: https://tfse.mikewk.com
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfse-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of useful tools for programming and writing-scripts.  Several functions are simple wrappers around base R functions that extend  their functionality while also providing some convenient propertiesâ€“regular expression functions that automatically detect look-ahead and look-behind  statements, a read-line function that suppresses incomplete-final-line  warnings and automatically opens and closes connections, a version of  substrings that starts from the end of strings, etc. Other functions are  useful for checking whether packages are installed, omitting  missing data, and showing in-use connections.
 
